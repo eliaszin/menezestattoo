@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Diploma';
+    src: url(diploma.ttf);
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(montserrat.ttf);
+}
+
+html {
+    font-size: 62.5%;
+    overflow-y: hidden;
+}
+
+body {
+    margin: 0;
+    font-family: 'Diploma', serif;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    background-color: #000;
+}
+
+body > div {
+    background-image: url(media/FUNDO.png);
+}
+
+body > div > div {
+    max-width: 720px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+div.opcoes {
+    margin: 6rem auto;
+}
+
+img {
+    display: block;
+    margin: 6rem auto 0 auto;
+    max-height: 100%;
+    max-width: auto;
+}
+
+a {
+    max-width: 75%;
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid #ff7700;
+}
+
+p {
+    margin-top: 6rem;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+}
